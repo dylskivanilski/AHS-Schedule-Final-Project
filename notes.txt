@@ -1,0 +1,17 @@
+Things to include
+
+Problem Statement
+
+Algorithm
+
+Code snippet
+
+3 Test Cases
+
+Runtime
+
+Discussion
+
+Future Work
+
+GitHub Link
