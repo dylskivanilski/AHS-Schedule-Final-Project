@@ -20,19 +20,20 @@ Assignments are ranked from highest to lowest priority, allowing students to bet
 - Displays the recommended order
 - Demonstrates time complexity of O(n log n)
 
-### Building
+## Build / Run
+
+### Visual Studio (Recommended)
+
+1. Open the solution in Visual Studio.
+2. Build the project (Ctrl + Shift + B).
+3. Run the project (F5 or Ctrl + F5).
+
+### Using g++
 
 ```bash
 g++ main.cpp -o scheduler
-```
-
-### Running
-
-```bash
 ./scheduler
 ```
-
-(or `scheduler.exe` on Windows)
 
 ### Author
 
