@@ -1,1 +1,20 @@
+Adaptive Homework Scheduler Test Cases
 
+Test 1
+Essay
+Days Left: 2
+Points: 100
+Hours: 5
+Progress: 20%
+
+Quiz
+Days Left: 1
+Points: 20
+Hours: 1
+Progress: 0%
+
+Project
+Days Left: 5
+Points: 200
+Hours: 10
+Progress: 50%
