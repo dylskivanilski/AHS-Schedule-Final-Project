@@ -24,10 +24,10 @@ double calculateScore(const Assignment& a, int maxPoints, int maxHours) {
     double timeCost = (double)a.hours / maxHours;
     double progressBonus = (double)a.progress / 100.0;
 
-    return (0.40 * urgency)
-         + (0.30 * value)
-         - (0.20 * timeCost)
-         + (0.10 * progressBonus);
+    return (0.25 * urgency)
+         + (0.45 * value)
+         - (0.10 * timeCost)
+         + (0.20 * progressBonus);
 }
 
 bool compareScore(const Assignment& a, const Assignment& b) {
