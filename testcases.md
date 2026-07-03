@@ -1,83 +1,38 @@
 # Test Cases
 
-## Test Case 1
+## Test Case 1: Urgency vs Value
 
-Essay
+Input:
+- Essay: 2 days, 100 points, 5 hours, 20% progress
+- Quiz: 1 day, 20 points, 1 hour, 0% progress
+- Project: 5 days, 200 points, 10 hours, 50% progress
 
-Days Left: 2
-
-Points: 100
-
-Hours: 5
-
-Progress: 20%
-
-Quiz
-
-Days Left: 1
-
-Points: 20
-
-Hours: 1
-
-Progress: 0%
-
-Project
-
-Days Left: 5
-
-Points: 200
-
-Hours: 10
-
-Progress: 50%
-
-Expected:
-
-Essay
-
-Project
-
-Quiz
-
-Actual:
-
-(To be completed after implementation)
+Expected: Project > Essay > Quiz  
+Actual: Project > Essay > Quiz  
+Result: PASS
 
 ---
 
-## Test Case 2
+## Test Case 2: Progress and Value
 
-Long Project
+Input:
+- Research Paper: 4 days, 250 points, 12 hours, 80% progress
+- Homework: 2 days, 20 points, 1 hour, 0% progress
+- Presentation: 6 days, 100 points, 4 hours, 50% progress
 
-Homework
-
-Lab
-
-Expected:
-
-(To be determined)
-
-Actual:
-
-(To be determined)
+Expected: Research Paper > Presentation > Homework  
+Actual: Research Paper > Presentation > Homework  
+Result: PASS
 
 ---
 
-## Test Case 3
+## Test Case 3: Near Deadline
 
-Nearly Finished Assignment
+Input:
+- Lab: 1 day, 50 points, 2 hours, 90% progress
+- Essay: 5 days, 100 points, 8 hours, 20% progress
+- Quiz: 2 days, 25 points, 1 hour, 0% progress
 
-Research Paper
-
-Presentation
-
-Discussion
-
-Expected:
-
-(To be determined)
-
-Actual:
-
-(To be determined)
+Expected: Lab > Essay > Quiz  
+Actual: Lab > Essay > Quiz  
+Result: PASS
